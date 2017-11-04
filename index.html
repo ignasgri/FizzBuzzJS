@@ -10,16 +10,50 @@
 	<script rel="stylesheet" src="p5.js"></script>
 	<script rel="stylesheet" src="p5.dom.js"></script>
 	<script rel="stylesheet" src="sketch.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-	<h1>Testing FizzBuzz</h1>
-	Number max (999): <input id="num" type="text" maxlength="3" max="999">
+	<div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+			<h1>Testing FizzBuzz</h1>
+	Number: <input id="num" type="text" maxlength="3" max="999">
 	<br>
 	Fizz value: <input id="fizz" type="text" maxlength="2" max="99">
 	<br>
 	Buzz value: <input id="buzz" type="text" maxlength="2" max="99">
 	<br>
 	<button id="submit">Submit</button>
-	<p id="demo"></p>
+	
+
+        </div>
+        <div class="col-md-6">
+			<p>
+		for (var i = 1; i <= <strong style="color:red">Number</strong>; i++) { <br/>
+        if (i % <strong style="color:red">Fizz value</strong> == 0 && i % <strong style="color:red">Buzz value</strong> == 0){ <br/>
+            console.log('FizzBuzz');
+	</p>
+
+    <p>
+        } else if (i % <strong style="color:red">Fizz value</strong> == 0){ <br/>
+            console.log('Fizz'); <br/>
+
+    </p>
+	<p>
+        } else if (i % <strong style="color:red">Buzz value</strong> == 0){ <br/>
+            console.log('Buzz'); <br/>
+        } else {<br/>
+            console.log(i); </br>
+		}
+		}
+	</p>
+       </div>
+	   </div>
+	   </div>
+	
+	<div id='results'>
+
+</div>
 </body>
 </html>
