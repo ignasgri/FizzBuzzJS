@@ -10,12 +10,13 @@
 	<script rel="stylesheet" src="p5.js"></script>
 	<script rel="stylesheet" src="p5.dom.js"></script>
 	<script rel="stylesheet" src="sketch.js"></script>
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 test">
 
 			<h1>Testing FizzBuzz</h1>
 	Number: <input id="num" type="text" maxlength="3" max="999">
@@ -28,7 +29,7 @@
 	
 
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 function">
 			<p>
 		for (var i = 1; i <= <strong style="color:red"><span id="num_html"> Number value </strong> ; i++) { <br/>
         if (i % <strong style="color:red"><span id="fizz_html"> Fizz value</span></strong> == 0 && i % <strong style="color:red"><span id="buzz_html"> Buzz value</span></strong> == 0){ <br/>
@@ -50,12 +51,15 @@
 	</p>
        </div>
 
-<div class="col-md-4">
-	<p>this is result</p>
+<div class="col-md-4 results">
 	<p>result also available on developer tools (chrome)</p>
 	<p>Windows: CTRL-SHIFT-J OR F12</p>
 	<p>Mac: ⌥-⌘-J</p>
-	<div id="output"></div>
+	
+	<div style="height:500px;width:300px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;" id="output"></div>
+<div class="one">
+	<p>thext</p>
+</div>
 </div>
 </div>
 </div>

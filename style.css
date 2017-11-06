@@ -1,3 +1,18 @@
-#buzz_html{
+.text{
     font-weight: bolder;
+    font-style: italic;
+}
+.test{
+    padding-top: 20px;
+}
+.function{
+    padding-top: 20px;
+}
+.results{
+    padding-top: 20px;
+}
+input{
+    width: 50px;
+    font-size: 14px;
+    text-align: center;
 }
