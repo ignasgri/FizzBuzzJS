@@ -16,3 +16,14 @@ input{
     font-size: 14px;
     text-align: center;
 }
+p{
+    margin-bottom: 0px!important;
+}
+.indent{
+    padding-left: 30px;
+    margin-bottom: 0px!important;
+}
+.doubleIndent{
+    padding-left: 60px;
+    margin-bottom: 0px!important;
+}
