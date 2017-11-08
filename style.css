@@ -1,9 +1,11 @@
+
 .text{
     font-weight: bolder;
     font-style: italic;
 }
 .test{
     padding-top: 20px;
+    text-align: center;
 }
 .function{
     padding-top: 20px;
@@ -26,4 +28,12 @@ p{
 .doubleIndent{
     padding-left: 60px;
     margin-bottom: 0px!important;
+}
+#output{
+    margin: auto;
+    height: 600px;
+    width: 150px;
+    border: 1px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
 }
