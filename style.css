@@ -7,20 +7,36 @@
     padding-top: 20px;
     text-align: center;
     font-family: 'Bungee', cursive;
+    font-size: 35px;
+    margin-top: 30px;
 }
 .function{
-    padding-top: 20px;
+    padding-top: 20%;
 }
 .results{
     padding-top: 20px;
 }
+.result-text{
+    font-size: 12px;
+    text-align: center;
+}
 input{
-    width: 50px;
+    width: 150px;
     font-size: 14px;
     text-align: center;
+    font-family: 'Bungee', cursive!important;
+    background-color: #686868;
 }
 p{
     margin-bottom: 0px!important;
+    color: #FFF;
+}
+h1{
+    font-size: 50px!important;
+    font-family: 'Bungee', cursive!important;
+    text-align: center;
+    text-shadow: 1px -1px #ff0000;
+
 }
 .indent{
     padding-left: 30px;
@@ -34,7 +50,27 @@ p{
     margin: auto;
     height: 600px;
     width: 150px;
-    border: 1px solid #ccc;
+    border: 1px solid #686868;
     font: 16px/26px Georgia, Garamond, Serif;
     overflow: auto;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Bungee', cursive!important;
+    text-align: center;
+}
+#num{
+    margin-top: 10px;
+}
+button{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px!important;
+    font-size: 20px;
+    background-color: #292b2c;
+    border: 3px dashed #ff0000;
+    border-radius: 50%;
+    font-family: 'Bungee', cursive!important;
+    color: #fff;
+    font-size: 45px!important;
+
 }

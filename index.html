@@ -23,17 +23,24 @@
 
 			<h1>Testing</h1> 
 			<h1>FizzBuzz</h1>
-	Number: <input id="num" type="text" maxlength="3" max="999">
+	Number: 
 	<br>
-	Fizz value: <input id="fizz" type="text" maxlength="2" max="99">
+	<input id="num" type="text" maxlength="3" max="999">
 	<br>
-	Buzz value: <input id="buzz" type="text" maxlength="2" max="99">
+	Fizz value: 
 	<br>
-	<button id="submit">Submit</button>
+	<input id="fizz" type="text" maxlength="2" max="99">
+	<br>
+	Buzz value: 
+	<br>
+	<input id="buzz" type="text" maxlength="2" max="99">
+	<br>
+	<button id="submit">GO</button>
 	
 
         </div>
         <div class="col-md-5 function">
+			<h1>Function</h1>
 			<p>for (var i = 1; i <= <strong style="color:red"><span id="num_html"> Number value </strong> ; i++) { </p>
         <p class="indent"> if (i % <strong style="color:red"><span id="fizz_html"> Fizz value</span></strong> == 0 && i % <strong style="color:red"><span id="buzz_html"> Buzz value</span></strong> == 0){</p>
         <p class="doubleIndent"> console.log('<strong style="font-weight:bolder;">FizzBuzz</strong>');</p>
@@ -51,12 +58,13 @@
        </div>
 
 <div class="col-md-4 results">
-	<p>result also available on developer tools (chrome)</p>
+	<h1>Result</h1>
+	<div id="output"></div>
+	<div class="result-text">
+	<p>*result also available on developer tools <img src="dev.png" alt="Chrome" style="width:30px;"></p>
 	<p>Windows: CTRL-SHIFT-J OR F12</p>
 	<p>Mac: ⌥-⌘-J</p>
-	
-	<div id="output"></div>
-
+	</div>
 </div>
 </div>
 </div>
