@@ -10,11 +10,24 @@
     font-size: 35px;
     margin-top: 30px;
 }
+.h1-test{
+    margin-left: -50px;
+}
 .function{
-    padding-top: 20%;
+    padding-top: 50px;
+}
+.function p{
+    font-size: 24px;
+        margin-left: 150px;
+}
+.h1-function{
+    margin-bottom: 120px;
 }
 .results{
-    padding-top: 20px;
+    padding-top: 50px;
+}
+.h1-result{
+    margin-left: -30px;
 }
 .result-text{
     font-size: 12px;
@@ -38,6 +51,14 @@ h1{
     text-shadow: 1px -1px #ff0000;
 
 }
+.background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#defaultCanvas0{
+    display: none;
+}
 .indent{
     padding-left: 30px;
     margin-bottom: 0px!important;
@@ -48,7 +69,7 @@ h1{
 }
 #output{
     margin: auto;
-    height: 600px;
+    height: 500px;
     width: 150px;
     border: 1px solid #686868;
     font: 16px/26px Georgia, Garamond, Serif;
@@ -62,13 +83,14 @@ h1{
     margin-top: 10px;
 }
 button{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 80px;
     margin-top: 20px!important;
+    margin-left: -25px!important;
     font-size: 20px;
     background-color: #292b2c;
-    border: 3px dashed #ff0000;
-    border-radius: 50%;
+    border: 2px dashed #ff0000;
+    border-radius: 10px;
     font-family: 'Bungee', cursive!important;
     color: #fff;
     font-size: 45px!important;

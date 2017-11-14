@@ -16,13 +16,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-	<img src="back.jpg" alt="back" style="position: absolute; width:100%;">
+	<img class="background" src="back.jpg" alt="back">
 	<div class="container">
       <div class="row">
-        <div class="col-md-3 test">
+        <div class="col-lg-2 test">
 
-			<h1>Testing</h1> 
-			<h1>FizzBuzz</h1>
+			<h1 class="h1-test">Testing</h1> 
+			<h1 class="h1-test">FizzBuzz</h1>
 	Number: 
 	<br>
 	<input id="num" type="text" maxlength="3" max="999">
@@ -39,8 +39,8 @@
 	
 
         </div>
-        <div class="col-md-5 function">
-			<h1>Function</h1>
+        <div class="col-lg-8 function">
+			<h1 class="h1-function">Function</h1>
 			<p>for (var i = 1; i <= <strong style="color:red"><span id="num_html"> Number value </strong> ; i++) { </p>
         <p class="indent"> if (i % <strong style="color:red"><span id="fizz_html"> Fizz value</span></strong> == 0 && i % <strong style="color:red"><span id="buzz_html"> Buzz value</span></strong> == 0){</p>
         <p class="doubleIndent"> console.log('<strong style="font-weight:bolder;">FizzBuzz</strong>');</p>
@@ -57,8 +57,8 @@
 	</p>
        </div>
 
-<div class="col-md-4 results">
-	<h1>Result</h1>
+<div class="col-lg-2 results">
+	<h1 class="h1-result">Result</h1>
 	<div id="output"></div>
 	<div class="result-text">
 	<p>*result also available on developer tools <img src="dev.png" alt="Chrome" style="width:30px;"></p>
